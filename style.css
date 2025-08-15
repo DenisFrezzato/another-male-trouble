@@ -21,7 +21,7 @@ main {
 
 h1 {
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.4em;
+  font-size: 1.7em;
   color: #333;
   margin-top: 0;
 }
@@ -64,16 +64,10 @@ a:hover {
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(10px, -20px);
+    transform: translate(10px, -20px) rotate(-2deg);
   }
   100% {
     transform: translate(0, 0);
-  }
-}
-
-@media (min-width: 370px) {
-  h1 {
-    font-size: 1.5em;
   }
 }
 
